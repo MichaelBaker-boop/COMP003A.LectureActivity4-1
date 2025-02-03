@@ -42,6 +42,7 @@
             double average = sum / grades.Length;
 
             // Display grades and average
+            Console.WriteLine("\nGrades:");
             foreach (int grade in grades)
             {
                 Console.WriteLine(grade); // This displays each grade stored in the array
