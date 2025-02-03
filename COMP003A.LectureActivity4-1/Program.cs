@@ -33,6 +33,20 @@
 
                 }
             }
+            // Average Grade Calculation
+            double sum = 0;
+            for (int i = 0; i < grades.Length; i++)
+            {
+                sum += grades[i]; // Add the current grade to the total sum for averaging
+            }
+            double average = sum / grades.Length;
+
+            // Display grades and average
+            foreach (int grade in grades)
+            {
+                Console.WriteLine(grade); // This displays each grade stored in the array
+            }
+            Console.WriteLine($"Average Grade: {average:F2}");
         }
     }
 }
