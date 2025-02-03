@@ -1,4 +1,9 @@
-﻿namespace COMP003A.LectureActivity4_1
+﻿// Author: Michael Baker
+// Course: COMP-003A
+// Faculty: Jonathan Cruz
+// Purpose: Explain and understand Arrays and Lists
+
+namespace COMP003A.LectureActivity4_1
 {
     internal class Program
     {
