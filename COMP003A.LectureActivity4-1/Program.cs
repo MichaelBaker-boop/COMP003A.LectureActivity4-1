@@ -47,6 +47,23 @@
                 Console.WriteLine(grade); // This displays each grade stored in the array
             }
             Console.WriteLine($"Average Grade: {average:F2}");
+
+            // List to store student names
+            List<string> studentNames = new List<string>();
+
+            // Collect student names
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write($"Enter name for student {i + 1}: ");
+                studentNames.Add(Console.ReadLine()); // Adds entered name to list
+            }
+
+            // Display student names
+            Console.WriteLine("\nStudent Names:");
+            for (int i = 0; i < studentNames.Count; i++)
+            {
+                Console.WriteLine($"Student {i + 1}: {studentNames[i]}"); // Display each name with index ")
+            }
         }
     }
 }
